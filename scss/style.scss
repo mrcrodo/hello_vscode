@@ -1,0 +1,54 @@
+// sdes napisali ctobi importirovat scss vfayl style.css
+@import "_nes";
+// zapisanno nazvanie fayla s nijneqo podcerkivaniya
+// v takom slucae vse izmeneniya popadut v style.css
+@import "_header";
+
+
+// sdes prosto ukazivaem fayl
+
+body {
+    font-size: 20;
+
+    div {
+        font-size: 10px;
+    }
+}
+
+p {
+    background-color: blue;
+}
+
+h1 {
+    color: rgb(34, 168, 135);
+}
+
+.block {
+
+    &_item {
+        color: blue;
+        background-color: darkred;
+    }
+
+    &_dudush {}
+}
+
+.block_item {
+
+    &__ {}
+}
+
+.block_dudush {
+
+    &__ {}
+}
+
+.block_item {}
+
+.block_item__ {}
+
+.block_dudush {}
+
+.block_dudush__ {}
+
+.den {}

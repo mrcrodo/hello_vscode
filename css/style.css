@@ -1,0 +1,25 @@
+.nes {
+  border: 1px solid #fff;
+  background: url();
+}
+
+header {
+  border: 1px soide red;
+  background-color: #fff;
+}
+
+body {
+  font-size: 20;
+}
+
+body div {
+  font-size: 10px;
+}
+
+p {
+  background-color: blue;
+}
+
+h1 {
+  color: #22a887;
+}
